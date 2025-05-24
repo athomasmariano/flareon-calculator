@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+main{
+    margin: 4rem 0;
+}
+.cabecalho{
+    display: flex;
+    background-color: #1E1E1E;
+    justify-content: space-between;
+}
+.cabecalho-container{
+    display: flex;
+}
+.quemsomos{
+    margin-top: 3vw;
+    color: white;
+    white-space: nowrap;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    width: auto;
+}
+.quemsomos h2{
+    text-decoration: none;
+}
+.faleconosco{
+    padding-right: 3vw;
+    padding-left: 2vw;
+}
+header a{
+    color:#1E1E1E
+}
+main{
+    background-color: #FAF9F6;
+}
+main form h2{
+    text-align: center;
+}
+footer{
+    background-color: #1E1E1E;
+}
+.boxform{
+    font-family: Arial, sans-serif;
+    color: #565759;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora-solar{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+}
+.simenao{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.simenao label {
+    display: flex;
+    gap: 0.5rem;
+}
+.checkboxsim{
+    margin-right: 10%;
+}
+.select-group{
+    display: flex;
+    justify-content: center;
+}
+#estado{
+    margin-right: 15%;
+    color: #FFAB4C;
+    width: 60%;
+    font-size: large;
+    background-color: #565759;
+}
+
+#cidade{
+    color: #FFAB4C;
+    width: 60%;
+    height: 5vh;
+    font-size: large;
+    background-color: #565759;
+}
+div p{
+    text-align: center;
+    color: #777777;
+}
+.slider-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.botaoresultado{
+    width: 10vw;
+    height: 5vh;
+    background-color: #FFAB4C;
+    color: #565759;
+    font-family: "Inter", sans-serif;
+    font-size: larger;
+    text-align: center;
+    padding: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 5%;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    margin-top: 8%;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+.botaoresultado:hover{
+    transform: scale(1.1);
+}
+/*RESULTADO PAGE*/
+#resultado-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    margin-top: 1%;
+}
+main section h2{
+    font-size: 2vw;
+    color: #565759;
+    padding-top: 10%;
+}
+main section p{
+    padding-top: 2%;
+    color: #1E1E1E;
+    font-size: x-large;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+main section span{
+    color: #FFAB4C;
+    font-size: large;
+    background-color: #565759;
+    padding: 1%;
+    margin-left: 3%;
+}
+.espacamentotxt{
+    padding-top: 3%;
+}
+.botaovoltar{
+    margin-top: 3%;
+    width: 10vw;
+    height: 5vh;
+    background-color: #FFAB4C;
+    border: 0;
+    font-family: "Inter", sans-serif;
+    color: #565759;
+    font-size: larger;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+.botaovoltar:hover{
+    transform: scale(1.1);
+}
+footer{
+    background-color: #1E1E1E;
+    font-size: larger;
+    font-family: "Inter", sans-serif;
+    color: #FAF9F6;
+    display: flex;
+    justify-content: left;
+    padding-left: 2%;
+}
+/*QUEM SOMOS WEB*/
+main h1{
+    display: flex;
+    justify-content: center;
+    color: #565759;
+}
+.titulo-quemsomos{
+    font-size: 3rem;
+}
+.main-quemsomos{
+    justify-self: start;
+}
+.body-quemsomos{
+    display: flex;
+}
+section h2{
+    color:#565759;
+}
+.boximgs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+.integrante{
+    text-align: center;
+}
+.textimgs{
+    color:#565759;
+    padding-top: 5%;
+    text-align: center;
+}
+#gitelink{
+    color: #565759;
+    text-align: center;
+    padding-left: 20px;
+}
+#grupoflareon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-top: 30.0%;
+}
+/*FALE CONOSCO*/
+.main-faleconosco{
+    background-color:#FAF9F6;
+}
+.body-faleconosco {
+    font-family: "Inter", sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    font-family: "Inter", sans-serif;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    justify-content: center;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FFAB4C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFAB4C;
+}
+#responseMessage {
+    text-align: center;
+    margin-top: 15px;
+    color: #FFAB4C;
+}
+
+
+
+/*Responsividade*/
+@media screen and (max-width:768px){
+    /*Quem somos?*/
+    header img {
+        width: 100%;
+    }
+    header a{
+        margin: auto 0;
+    }
+    header .quemsomos{
+        font-size:1.5rem;
+        margin: 0 auto;
+    }
+    .textimgs{
+        font-size: 2rem;
+    }
+
+    .boximgs{
+        display: flex;
+        flex-direction: column;
+    }
+    .integrante{
+        padding-top: 5%;
+    }
+    #grupoflareon{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    #grupoflareon h2{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    /*Index html*/
+   #estado{
+    margin: 0;
+   }
+   .select-group{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+   }
+   input, textarea{
+    width: 70%;
+   }
+   .botaoresultado{
+    width: 20vh;
+   }
+   main section h2{
+    font-size: xx-large;
+   }
+   main section p{
+    font-size: 1rem;
+   }
+   .botaovoltar{
+        margin-top: 2rem;
+        width: 20vh;
+        text-align: center;
+        height: 8vh;
+   }
+   /*Fale conosco*/
+    .form-box{
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+    main div form{
+        text-align: center;
+    }
+}
+/*Tablet*/
+@media screen and (max-width:1280px){
+    #grupoflareon{
+        padding-top: 25rem;
+    }
+}
+
+

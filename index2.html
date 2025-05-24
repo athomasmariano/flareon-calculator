@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../calculadoraflareon/CSS/estilo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a href="#">
+      <img
+        src="../calculadoraflareon/assets/imgs/logoflareon.svg"
+        alt="logoflareon"
+      />
+      </a>
+
+      <div class="cabecalho-container">
+        <a href="../calculadoraflareon/quemsomos.html">
+          <h2 class="quemsomos espacamento-quemsomos">QUEM SOMOS?</h2>
+        </a>
+        <a href="../calculadoraflareon/faleconosco.html">
+          <h2 class="quemsomos faleconosco">FALE CONOSCO</h2>
+        </a>
+      </div>
+    </header>
+
+    <main id="calculator-page" class="boxform">
+      <form class="calculadora-solar">
+        <h2>1. SUA RESIDÊNCIA POSSUI ACESSO À REDE ELÉTRICA?</h2>
+        <div class="simenao">
+          <label class="checkboxsim">
+            <input
+              class="simenao" type="radio" name="acesso" value="sim" checked/>Sim
+          </label>
+
+          <label>
+            <input class="simenao" type="radio" name="acesso" value="não" />Não
+          </label>
+        </div>
+
+        <h2>2. ONDE PRETENDE REALIZAR A INSTALAÇÃO?</h2>
+        <div class="select-group">
+          <select id="estado">
+            <option disabled selected>Estado</option>
+            <option>São Paulo</option>
+
+            <!-- Opções de estados -->
+          </select>
+
+          <select id="cidade">
+            <option value="" disabled selected>Cidade</option>
+            <option>São Paulo</option>
+            <!-- Opções de cidades -->
+          </select>
+        </div>
+
+        <div>
+          <h2>3. QUANTO VOCÊ PAGA DE ENERGIA AO MÊS?</h2>
+          <p>
+            (Você pode mover a barra com o mouse ou clicar e editar o valor)
+          </p>
+          <div class="slider-container">
+            <input
+              type="range"
+              class="energia-custo"
+              id="energia-custo"
+              min="0"
+              max="1000"
+              value="0"
+            />
+            <span id="valor-energia">R$0</span>
+          </div>
+          <button
+            class="botaoresultado"
+            type="button"
+            onclick="calcularEconomia()"
+          >
+            Resultado
+          </button>
+          <!--Verificar o porque o botão n está funcionando-->
+        </div>
+      </form>
+    </main>
+
+    <main id="result-page" style="display: none">
+      <section id="resultado-container">
+        <h2>Investimento</h2>
+        <p>Estimativa de Investimento: <span id="investimento"></span></p>
+
+        <h2 class="espacamentotxt">Economia</h2>
+        <p>Economia Mensal: <span id="economia-mensal"></span></p>
+
+        <h2 class="espacamentotxt">ROI (Return on Investment)</h2>
+        <p>Economia Total em 30 Anos: <span id="economia-total"></span></p>
+
+        <button class="botaovoltar" type="button" onclick="voltar()">
+          Voltar
+        </button>
+      </section>
+    </main>
+
+    <footer>
+      <p>Grupo Flareon 2024</p>
+    </footer>
+
+    <script src="../calculadoraflareon/JS/script.js"></script>
+  </body>
+</html>

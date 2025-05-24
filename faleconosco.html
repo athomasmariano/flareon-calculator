@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="../calculadoraflareon/CSS/estilo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="../calculadoraflareon/index2.html">
+        <img
+          src="../calculadoraflareon/assets/imgs/logoflareon.svg"
+          alt="logoflareon"
+        />
+        </a>
+  
+        <div class="cabecalho-container">
+          <a href="../calculadoraflareon/quemsomos.html">
+            <h2 class="quemsomos espacamento-quemsomos">QUEM SOMOS?</h2>
+          </a>
+          <a href="../calculadoraflareon/faleconosco.html">
+            <h2 class="quemsomos faleconosco">FALE CONOSCO</h2>
+          </a>
+        </div>
+      </header>
+
+    <main id="main-faleconosco">
+        <div class="container-form">
+            <div class="form-box">
+                <h2>Formulário de Contato</h2>
+                <form id="contactForm">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+                <p id="responseMessage"></p>
+            </div>
+        </div>
+
+    </main>
+    
+    <footer>
+        <p>Grupo Flareon 2024</p>
+    </footer>
+    <script src="../calculadoraflareon/JS/scriptform.js"></script>
+</body>
+</html>
