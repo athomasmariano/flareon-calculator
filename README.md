@@ -35,7 +35,7 @@ Este projeto é uma calculadora solar desenvolvida para estimar o investimento n
 ## 👥 Grupo Flareon
 
 Projeto desenvolvido pelo Grupo Spectrum em 2024. 🎉
-Linkedin: [text](https://www.linkedin.com/in/arthur-thomas-mariano-941a97234/)
+Linkedin: [https://www.linkedin.com/in/arthur-thomas-941a97234](https://www.linkedin.com/in/arthur-thomas-941a97234)
 
 ---
 Este é um projeto simples para auxiliar usuários a entenderem o potencial de economia com energia solar em suas residências. 🌱🔋
